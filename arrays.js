@@ -15,9 +15,3 @@ function destructivelyAddElementToEndOfArray(array,element) {
 function accessElementinArray(array,index) {
   return `${array}[${index}]`
 }
-function addElementToBeginningOfArray(chocolateBars, candyString){
-  return [candyString, ...chocolateBars];
-}
- function removeElementFromEndOfArray(chocolateBars){
-  return chocolateBars.slice(0, chocolateBars.length - 1);
-}
