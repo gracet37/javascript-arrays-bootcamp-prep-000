@@ -3,6 +3,5 @@ function addElementToBeginningOfArray(array,element) {
   return `${array}.${element}`
 }
   function destructivelyAddElementToBeginningOfArray(array,element) {
-    return `[${array},...
+    return `[${element},...${array}]`
   }
-}
