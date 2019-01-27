@@ -18,4 +18,6 @@ function accessElementinArray(array,index) {
 function addElementToBeginningOfArray(chocolateBars, candyString){
   return [candyString, ...chocolateBars];
 }
- 
+ function removeElementFromEndOfArray(chocolateBars){
+  return chocolateBars.slice(0, chocolateBars.length - 1);
+}
