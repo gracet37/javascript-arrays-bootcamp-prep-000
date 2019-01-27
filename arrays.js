@@ -35,6 +35,6 @@ function destructivelyRemoveElementFromEndOfArray (array){
     return array
   }
   function accessElementInArray(array,index) {
-    array[index]
-    return array
+    return array[index]
+    
   }
